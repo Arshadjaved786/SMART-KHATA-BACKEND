@@ -1,6 +1,6 @@
 const Product = require("../models/Product");
 const Invoice = require("../models/Invoice");
-const PurchaseInvoice = require("../models/PurchaseInvoice");
+const PurchaseInvoice = require("../models/purchaseInvoice");
 const InventoryTransaction = require("../models/InventoryTransaction");
 
 exports.getProductLedger = async (req, res) => {
